@@ -1,0 +1,8 @@
+ #include<stdio.h>
+ #include<string.h>
+ int main(){
+     char oldStr[]="Apple";
+     char newStr[]="Bpple";
+     printf("%d",strcmp(oldStr,newStr));
+     return 0;
+ }
