@@ -1,0 +1,26 @@
+scanf( ) cannot input multi-word strings with spaces
+Here,
+gets() & puts() come into picture.
+
+gets(str) input a string (even multiword)
+
+puts(str) output a string
+
+fgets( str, n, file) stops when n-1 chars input or newline is entered
+file-stdin
+
+#include<stdio.h>
+int main(){
+    char str[100];
+   gets(str);
+   puts(str);
+    return 0;
+}
+--------------
+#include<stdio.h>
+int main(){
+    char str[100];
+    fgets(str,100,stdin);
+    puts(str);
+    return 0;
+}
