@@ -1,7 +1,7 @@
 include<stdio.h>
  #include<string.h>
  int main(){
-     char oldStr[]="Hello";
+     char oldStr[100]="Hello";
      char newStr[]="World";
      strcat(newStr,oldStr);
      puts(newStr);
